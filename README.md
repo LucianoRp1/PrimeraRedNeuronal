@@ -1,18 +1,18 @@
 <h2>En esta sección se importan las librerías necesarias para el desarrollo del programa. numpy es una librería para realizar operaciones matemáticas en Python, tensorflow es una librería de aprendizaje automático y matplotlib es una librería para graficar datos.</h2>
 
- import numpy as np<br>
-import tensorflow as tf
-import matplotlib.pyplot as plt 
+ import numpy as np<br/>
+import tensorflow as tf <br/>
+import matplotlib.pyplot as plt <br/>
 
 --------------------------------------------------------------
 
 <h2>Se definen los datos de entrada datos_x y los datos de salida datos_y. En este caso, los datos de entrada representan una distancia en metros y los datos de salida la misma distancia, pero en yardas.</h2>
 
-  datos de entrada X (en metros)
-datos_x = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]], dtype=float)
+ <h4> datos de entrada X (en metros)
+datos_x = np.array([[1], [2], [3], [4], [5], [6], [7], [8], [9], [10]], dtype=float)</h4><br/>
 
- datos de salida Y (en yardas)
-datos_y = np.array([[1093.61], [2187.22], [3280.84], [4374.46], [5468.08], [6561.69], [7655.31], [8748.93], [9842.55], [10936.17]], dtype=float) 
+<h4> datos de salida Y (en yardas)
+datos_y = np.array([[1093.61], [2187.22], [3280.84], [4374.46], [5468.08], [6561.69], [7655.31], [8748.93], [9842.55], [10936.17]], dtype=float) </h4>
 --------------------------------------------------------------
 
 <h2>Luego se define la topología de la red neuronal con la capa Dense de tensorflow. En este caso, se define una capa con un solo neurona y una entrada.</h2>
